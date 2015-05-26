@@ -72,6 +72,7 @@ void selectionsort(L &l)
 
 //Question 2: Stability
 // Part A: My selectionsort function is stable because it to does not swap two elements if they are equal.
-//A simple change in comparison from <= to < makes it stable.
+//A simple implementation of using comparison < makes it stable.
 
-//Part B: see main
+//Part B: In my main I implemented a list that has multible copies of the same number. It Does not change the postion of the values
+//If they are equal.
